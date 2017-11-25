@@ -6,5 +6,5 @@ const appRoutes: Routes = [
     { path: 'expense', loadChildren: 'src/expense/expense.module#ExpenseModule' },
     { path: 'user', loadChildren: 'src/user/user.module#UserModule' }
 ];
-
+ 
 export { appRoutes }
